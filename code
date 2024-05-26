@@ -1,0 +1,5 @@
+Request1
+SELECT DISTINCT market, region, customer
+FROM dim_customer
+WHERE customer = "Atliq Exclusive"
+AND region = "APAC";
